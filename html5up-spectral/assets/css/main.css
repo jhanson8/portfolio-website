@@ -3998,3 +3998,13 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
+
+	.form{
+		background: darkgrey;
+		padding-left:20%;
+		padding-right:20%;
+		padding-top:6%;
+		padding-bottom:6%;
+
+	}
+	

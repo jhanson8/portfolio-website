@@ -27,10 +27,12 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
+											<li><a href="#one">About</a></li>
+											<li><a href="#two">Projects</a></li>
+											<li><a href="#form1">Contact</a></li>
 											<li><a href="generic.html">Generic</a></li>
 											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											
 										</ul>
 									</div>
 								</li>
@@ -42,11 +44,10 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Jonathan Hanson</h2>
-							<p>Welcome!<br />
-							I'm a full-stack web developer <br/>based in the SF Bay Area.<br />
-							 This is my portfolio.</p>
+							<p>Full-stack web developer, SF Bay Area </p>
+																		
 							<ul class="actions special">
-								<li><a href="#" class="button primary">My Work</a></li>
+								<li><a href="#one" class="button primary">My Portfolio</a></li> 
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">About Me</a>
@@ -57,10 +58,11 @@
 						<div class="inner">
 							
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>About Me</h2>
+								<p>I am currently enrolled in Lambda School's Full-Stack Web Development program. The program uses a tech stack that includes JavaScript,
+									HTML, CSS, Node, React, Python, Express, and SQL among other programming and design tools. I look forward to building solutions to real-world problems
+									through the awesome power of the web. 
+								</p>
 							</header>
 							
 							<!-- <ul class="icons major">
@@ -72,32 +74,89 @@
 						</div>
 					</section>
 
+		
+
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/responsive.png" alt="" /></div><div class="content">
+								<h2>Responsive Web Design I</h2>
+								<p>In this project, I created a website that had a unique responsive design for mobile, tablet, and desktop versions.</p>
+								<a href="https://github.com/jhanson8/responsive-web-design-I" target ="_blank" class="button primary small">GitHub</a>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/felxbox2.png" alt="" /></div><div class="content">
+								<h2>UI Flexbox-III Project</h2>
+								<p>In this project, I refactored a previous website I made using CSS flexbox and phasing out inline-block when neccessary.</p>
+								<a href="https://github.com/jhanson8/UI-III-Flexbox" target="_blank" class="button primary small">GitHub</a>
 							</div>
 						</section>
-						<section class="spotlight">
+						<!-- <section class="spotlight">
 							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
 								<h2>Augue eleifend aliquet<br />
 								sed condimentum</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<a href="#" class="button primary small">GitHub</a>
 							</div>
-						</section>
+						</section> -->
 					</section>
 
-				<!-- Three -->
+
+				<!-- Form  -->
+				<section id="form1" class="form">
+					<h2>Contact</h2>
+					<form method="post" action="#">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+							</div>
+							<!-- <div class="col-12">
+								<select name="demo-category" id="demo-category">
+									<option value="">- Category -</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div> -->
+							<!-- <div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<label for="demo-priority-low">Low</label>
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-normal" name="demo-priority">
+								<label for="demo-priority-normal">Normal</label>
+							</div>
+							<div class="col-4 col-12-small">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy</label>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">Not a robot</label>
+							</div> -->
+							<div class="col-12">
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+
+				<!-- Three
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
@@ -132,18 +191,18 @@
 								</li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Jonathan Hanson</h2>
+								<p>Thank you for visiting my portfolio website.</p>
 							</header>
 							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="#two" class="button fit primary">Full Portfolio</a></li>
+								<li><a href="#one" class="button fit">About</a></li>
 							</ul>
 						</div>
 					</section>
